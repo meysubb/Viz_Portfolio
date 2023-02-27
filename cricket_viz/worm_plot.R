@@ -115,4 +115,4 @@ rr <- ipl_bbb_df %>% filter(season==2022) %>% slice_max(start_date) %>%
 
 
 create_match_worm_plot(rr,"Indian Premier League")
-
+ggsave("cricket_viz/ipl_22_final.png",height=12,width=16)
